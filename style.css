@@ -210,7 +210,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 30px;
@@ -314,5 +314,38 @@ form .btn-enviar input{
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
+}
+
+/* ESTILO DO RODAPÉ */
+
+.logo-footer img{
+    width: 80px; 
+    height: auto; 
+}
+
+footer{
+    padding: 5px 4%;
+    box-shadow: 0 0 40px 10px #ffffff17;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #1597c8;
+}
+
+footer .line-footer p i{
+    color: #1597c8;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #fff;
 }
 
